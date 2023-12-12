@@ -106,7 +106,9 @@
     "page/cloud/pages/scf-openapi/scf-openapi",
     "page/component/pages/doc-web-view/doc-web-view",
     "page/API/pages/doc-web-view/doc-web-view",
-    "page/cloud/pages/doc-web-view/doc-web-view"
+    "page/cloud/pages/doc-web-view/doc-web-view",
+    "page/Game/twenty-four",
+    "page/Game/ddd"
   ],
   "window": {
     "navigationBarTextStyle": "black",

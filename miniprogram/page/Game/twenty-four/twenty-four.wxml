@@ -1,0 +1,33 @@
+<!--page/Game/twenty-four.wxml-->
+<view class="container">
+  <!-- 第一行：随机生成的四个数字 -->
+  <view class="numbers">
+    <text wx:for="{{numbers}}" wx:key="index">{{item}}</text>
+    <button bindtap="refreshNumbers">刷新</button>
+  </view>
+
+  <!-- 第二行：用户输入 -->
+  <input value="{{userInput}}" bindinput="inputHandler" />
+
+  <!-- 第三行：按钮区域，包括数字、运算符、括号 -->
+  <view class="buttons">
+    <button wx:for="{{buttons}}" wx:key="index" bindtap="buttonClick">{{item}}</button>
+  </view>
+
+  <!-- 第四行：退格和清除按钮 -->
+  <view class="control-buttons">
+    <button bindtap="backspace">退格</button>
+    <button bindtap="clear">清除</button>
+  </view>
+
+  <!-- 第五行：提交和提示按钮 -->
+  <view class="action-buttons">
+    <button bindtap="submit">提交</button>
+    <button bindtap="showAnswer">提示</button>
+  </view>
+
+  <!-- 第六行：结果显示 -->
+  <view class="result">
+    <text wx:if="{{result !== ''}}">{{result}}</text>
+  </view>
+</view>

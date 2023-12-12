@@ -1,0 +1,40 @@
+/* page/Game/twenty-four.wxss */
+/* pages/index/index.wxss */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .numbers {
+    display: flex;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .buttons button {
+    width: 20%;
+    font-size: 18px;
+    margin: 5px;
+  }
+  
+  .control-buttons {
+    display: flex;
+    margin: 10px 0;
+  }
+  
+  .action-buttons {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .result {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
