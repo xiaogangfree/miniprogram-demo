@@ -1,75 +1,64 @@
 {
-	"description": "项目配置文件。",
-	"miniprogramRoot": "miniprogram/",
-	"cloudfunctionRoot": "cloudfunctions/",
-	"packOptions": {
-		"ignore": []
-	},
-	"setting": {
-		"urlCheck": true,
-		"es6": true,
-		"postcss": true,
-		"minified": true,
-		"newFeature": true
-	},
-	"compileType": "miniprogram",
-	"libVersion": "2.4.2",
-	"appid": "wxe5f52902cf4de896",
-	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%A4%BA%E4%BE%8B",
-	"isGameTourist": false,
-	"simulatorType": "wechat",
-	"simulatorPluginLibVersion": {},
-	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"plugin": {
-			"current": -1,
-			"list": []
-		},
-		"game": {
-			"currentL": -1,
-			"list": []
-		},
-		"miniprogram": {
-			"current": 4,
-			"list": [
-				{
-					"id": -1,
-					"name": "map",
-					"pathName": "page/component/pages/map/map",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "font",
-					"pathName": "page/API/pages/load-font-face/load-font-face",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "cloud",
-					"pathName": "page/cloud/index",
-					"query": ""
-				},
-				{
-					"id": 3,
-					"name": "cloud-page",
-					"pathName": "page/cloud/pages/scf-storage/scf-storage",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "cloud-openapi",
-					"pathName": "page/cloud/pages/scf-openapi/scf-openapi",
-					"scene": null
-				}
-			]
-		}
-	}
+  "description": "项目配置文件。",
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.4.2",
+  "appid": "wxe5f52902cf4de896",
+  "projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%A4%BA%E4%BE%8B",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "map",
+          "pathName": "page/component/pages/map/map",
+          "query": ""
+        },
+        {
+          "name": "font",
+          "pathName": "page/API/pages/load-font-face/load-font-face",
+          "query": ""
+        },
+        {
+          "name": "cloud",
+          "pathName": "page/cloud/index",
+          "query": ""
+        },
+        {
+          "name": "cloud-page",
+          "pathName": "page/cloud/pages/scf-storage/scf-storage",
+          "query": ""
+        },
+        {
+          "name": "cloud-openapi",
+          "pathName": "page/cloud/pages/scf-openapi/scf-openapi",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "srcMiniprogramRoot": "miniprogram/",
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
 }
