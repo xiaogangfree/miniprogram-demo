@@ -1,64 +1,90 @@
 {
-  "description": "项目配置文件。",
-  "miniprogramRoot": "miniprogram/",
-  "cloudfunctionRoot": "cloudfunctions/",
-  "packOptions": {
-    "ignore": [],
-    "include": []
-  },
-  "setting": {
-    "urlCheck": true,
-    "es6": true,
-    "postcss": true,
-    "minified": true,
-    "newFeature": true,
-    "babelSetting": {
-      "ignore": [],
-      "disablePlugins": [],
-      "outputPath": ""
-    }
-  },
-  "compileType": "miniprogram",
-  "libVersion": "3.2.4",
-  "appid": "wx6551f58ab36350dd",
-  "projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%A4%BA%E4%BE%8B",
-  "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
-  "condition": {
-    "miniprogram": {
-      "list": [
-        {
-          "name": "map",
-          "pathName": "page/component/pages/map/map",
-          "query": ""
+    "description": "项目配置文件。",
+    "miniprogramRoot": "miniprogram/",
+    "cloudfunctionRoot": "cloudfunctions/",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "enhance": true,
+        "postcss": true,
+        "preloadBackgroundData": false,
+        "minified": true,
+        "newFeature": true,
+        "coverView": true,
+        "nodeModules": false,
+        "autoAudits": false,
+        "showShadowRootInWxmlPanel": true,
+        "scopeDataCheck": false,
+        "uglifyFileName": false,
+        "checkInvalidKey": true,
+        "checkSiteMap": true,
+        "uploadWithSourceMap": true,
+        "compileHotReLoad": false,
+        "lazyloadPlaceholderEnable": false,
+        "useMultiFrameRuntime": true,
+        "useApiHook": true,
+        "useApiHostProcess": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
         },
-        {
-          "name": "font",
-          "pathName": "page/API/pages/load-font-face/load-font-face",
-          "query": ""
-        },
-        {
-          "name": "cloud",
-          "pathName": "page/cloud/index",
-          "query": ""
-        },
-        {
-          "name": "cloud-page",
-          "pathName": "page/cloud/pages/scf-storage/scf-storage",
-          "query": ""
-        },
-        {
-          "name": "cloud-openapi",
-          "pathName": "page/cloud/pages/scf-openapi/scf-openapi",
-          "query": "",
-          "scene": null
+        "useIsolateContext": false,
+        "userConfirmedBundleSwitch": false,
+        "packNpmManually": false,
+        "packNpmRelationList": [],
+        "minifyWXSS": true,
+        "disableUseStrict": false,
+        "minifyWXML": true,
+        "showES6CompileOption": false,
+        "useCompilerPlugins": false,
+        "ignoreUploadUnusedFiles": true
+    },
+    "compileType": "miniprogram",
+    "libVersion": "3.2.4",
+    "appid": "wx6551f58ab36350dd",
+    "projectname": "miniprogram-demo",
+    "simulatorType": "wechat",
+    "simulatorPluginLibVersion": {},
+    "srcMiniprogramRoot": "miniprogram/",
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 2
+    },
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "map",
+                    "pathName": "page/component/pages/map/map",
+                    "query": ""
+                },
+                {
+                    "name": "font",
+                    "pathName": "page/API/pages/load-font-face/load-font-face",
+                    "query": ""
+                },
+                {
+                    "name": "cloud",
+                    "pathName": "page/cloud/index",
+                    "query": ""
+                },
+                {
+                    "name": "cloud-page",
+                    "pathName": "page/cloud/pages/scf-storage/scf-storage",
+                    "query": ""
+                },
+                {
+                    "name": "cloud-openapi",
+                    "pathName": "page/cloud/pages/scf-openapi/scf-openapi",
+                    "query": "",
+                    "scene": null
+                }
+            ]
         }
-      ]
     }
-  },
-  "srcMiniprogramRoot": "miniprogram/",
-  "editorSetting": {
-    "tabIndent": "insertSpaces",
-    "tabSize": 2
-  }
 }

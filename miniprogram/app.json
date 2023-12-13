@@ -107,8 +107,8 @@
     "page/component/pages/doc-web-view/doc-web-view",
     "page/API/pages/doc-web-view/doc-web-view",
     "page/cloud/pages/doc-web-view/doc-web-view",
-    "page/Game/twenty-four",
-    "page/Game/ddd"
+    "page/Game/pages/index/index",
+    "page/Game/pages/twenty-four/twenty-four"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -122,6 +122,12 @@
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [
+      {
+        "pagePath": "page/Game/pages/index/index",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "游戏"
+      },
       {
         "pagePath": "page/component/index",
         "iconPath": "image/icon_component.png",
