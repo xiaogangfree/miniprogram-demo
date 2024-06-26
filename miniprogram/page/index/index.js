@@ -26,7 +26,7 @@ Page({
   //   //   'dialog.hidden': true
   //   // })
   // },
-
+  
   navigationToDetail(e) {
     wx.navigateTo({
       // url: '../Game/GameDetail?id=' + e.currentTarget.dataset.id

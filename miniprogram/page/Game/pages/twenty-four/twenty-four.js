@@ -251,4 +251,21 @@ Page({
   // console.log(resultNumbers);
 
 
+  // 访问原函数
+  helloWorld() {
+    wx.cloud.callContainer({
+      config: {
+        env: 'prod-6gty1lvze8de75fd'
+      },
+      path: '/api/count',
+      header: {
+        'X-WX-SERVICE': 'golang-nmbe'
+      },
+      method: 'POST',
+      data: {
+        action: 'inc'
+      }
+    })
+  },
+
 })

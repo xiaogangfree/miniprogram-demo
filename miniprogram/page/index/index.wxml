@@ -12,7 +12,7 @@
 <navigator url="/pages/Game/detail?id={{item.id}}">
 
   
-    <view bindtap="navigateToDetail" data-id="{{item.id}}">
+    <view bindtap="navigationToDetail" data-id="{{item.id}}">
       {{item.name}}
     </view>
   </navigator>
